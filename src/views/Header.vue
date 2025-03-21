@@ -56,15 +56,15 @@ const deleteHandle = () => {
 }
 onMounted(() => {
   console.log(window.location.href)
-  let modelUrl = window.location.href.split("=")[1]
+  // let modelUrl = window.location.href.split("=")[1]
   // let modelType = modelUrl.split(".")[1]
-  let lastIndex = modelUrl.lastIndexOf('.'); // 查找最后一个点的位置
-  let modelType = modelUrl.substring(lastIndex + 1); // 截取最后一个点后面的部分
-  let model = {
-    filePath: "" + modelUrl,
-    fileType: modelType
-  }
-  setModel(model)
+  // let lastIndex = modelUrl.lastIndexOf('.'); // 查找最后一个点的位置
+  // let modelType = modelUrl.substring(lastIndex + 1); // 截取最后一个点后面的部分
+  // let model = {
+  //   filePath: "" + modelUrl,
+  //   fileType: modelType
+  // }
+  // setModel(model)
 })
 
 </script>
